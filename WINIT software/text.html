@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WINIT Mobile Version</title>
+        <link rel="stylesheet" href="text.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="front-page-container">
+            <div class="page-container">
+                <h1 class="heading">
+                    Maintain Load Request Template
+                </h1>
+                <p>Home > Maintain Load Request Template</p>
+                <p>Search Criteria: Name: All</p>
+            </div>
+            <hr class="horizontal-rule"/>
+            <div class="serch-container page-container">
+                <label>
+                    Name
+                </label> <br/>
+                <input placeholder="Enter Name" type="text"  class="input-ele"/>
+                <button class="btn btn-primary button">Search</button>
+                <button class="btn btn-light button">Reset</button>
+            </div>
+            <div  class="page-container">
+                <a href="text1.html">
+                    <button id="addNowButton" class="btn btn-primary button mt-4">Add Now</button>
+                </a>
+            </div>
+            <div class="page-container">
+                <ul class="bg-secondary ul-container mt-3">
+                    <li class="list-12">SN NO</li>
+                    <li class="list-22">Template Name</li>
+                    <li class="list-32">Template Description</li>
+                    <li class="list-42">
+                        No Items
+                    </li>
+                    <li class="list-52">
+                        Action
+                    </li>
+
+                </ul>
+                <ul class="details-container" id="ulContainerMain" >
+                    
+                </ul>
+            </div>
+            
+            
+        </div>
+        <script src="text.js"></script>
+    </body>
+</html>
